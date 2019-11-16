@@ -7,6 +7,8 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 public class Person {
+
+    private  Integer money;
     /**
      * id
      */
@@ -71,4 +73,7 @@ public class Person {
     public void setDate(Date date) {
         this.date = date;
     }
+
+
+
 }
